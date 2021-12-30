@@ -31,3 +31,5 @@ def test_accum_add_twice(accum):
 def test_accum_cannot_set_count(accum):
     with pytest.raises(AttributeError, match=r'can\'t set attribute') as e:
         accum.count = 10
+
+
